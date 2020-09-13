@@ -1,18 +1,22 @@
 <template>
 <v-app>
 
+
+    <!--
+
     <template v-if="!User || !User.logged">
         <welcome-page/>
     </template>
 
     <el-dialog-login/>
     <el-dialog-register/>
+     -->
 
-    <template v-if="User.logged">
+<!--    <template v-if="User.logged">-->
         <v-content class="fill-height">
             <router-view/>
         </v-content>
-    </template>
+<!--    </template>-->
 
 </v-app>
 </template>

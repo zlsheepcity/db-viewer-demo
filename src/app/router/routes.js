@@ -7,7 +7,7 @@ export default
   {
     component: () => import(
       /* webpackChunkName: "Welcome" */
-               '../../views/Welcome.vue'),
+               '../../views/Dashboard.vue'),
     name:                  'Welcome',
     path:                 '/',
   },

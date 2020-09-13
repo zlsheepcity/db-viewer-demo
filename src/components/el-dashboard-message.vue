@@ -47,12 +47,7 @@
                             Fresh Look!
                         </div>
                         <div class="pb-4">
-                            Read the related comments<br>
-                            about front-end source code<br>
-                            in
-                            <span class="as_link"
-                                @click="Interface.Goto('/DevBlog')"
-                                >Developers Blog</span>
+                            This is a demo interface for database.<br> Public copy of real project.
                         </div>
                         <div>
                             <span @click="User.Perk('developer', !User.Dev())"
@@ -66,8 +61,7 @@
                                 >Get «User Developer» perk</span>
                             </span>
                             <div>
-                                in User Profile, to see hidden<br>
-                                messages and values
+                                to see hidden messages<br> and values
                             </div>
                             <div class="pt-1" v-if="User.Dev()">
                                 <b>you are developer!</b>
@@ -130,7 +124,7 @@
                     Фронтенд подгружает данные из API и разделяет на «категории». Записи выводятся в <i>таблице</i>, в <i>окне предварительного просмотра</i> и в <i>карточке</i>.
                 </div>
                 <div class="pb-1">
-                    <i>Конструктор фильтров</i> создаёт параметры для запросов к API. Параметры задаются в настройках, отдельно для каждой категории.
+                    <i>Конструктор фильтров</i> создаёт параметры для запросов к API. Параметры настраиваются отдельно для каждой категории.
                 </div>
                 <div class="pb-1">
                     В
