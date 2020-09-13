@@ -7,10 +7,6 @@
 <v-container class="pa-0">
 <v-row>
     <v-col cols="12" sm="3" class="pa-0">
-        <img
-            src="../assets/wingle_logo.svg"
-            alt="Wingle"
-            class="wingle-logo-img mx-auto ml-sm-8">
     </v-col>
     <v-col cols="12" sm=6>
         <div class="d-flex justify-center align-center">
@@ -37,8 +33,8 @@
 <v-container>
 
     <header>
-        <h1><span>Innovation Product Monitoring Platform</span></h1>
-        <h2>Stay updated with latest technologies and products developments</h2>
+        <h1><span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</span></h1>
+        <h2>Aliquam tincidunt mauris eu risus</h2>
     </header>
 
     <div class="d-none d-md-flex justify-center">
@@ -81,9 +77,8 @@
 
     <div class="body-1 text-left px-4 mx-auto"
         style="max-width: 60rem;">
-        <h3 class="title pb-2">Managing Information The Smart Way</h3>
-        <p>Our aim has always been to develop a proprietary platform that manages information with ease. By developing an effective instrument for the systematic managing of information on technology products, new developments, innovators, and manufacturers, everyone has an objective source of data to leverage.</p>
-        <p>As we analyze the data, trends emerge and other interesting information always comes forth that we never expected. Part of the benefits of being so closely attached to a wealth of information is deciding on what you want to do with it. We have years of experience in interpreting the data to shine a light on the best and most efficient partners.</p>
+        <h3 class="title pb-2">Vestibulum auctor dapibus neque</h3>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
     </div>
 
     <div class="d-flex justify-center pt-4">
@@ -111,13 +106,15 @@
         style="max-width: 60rem;">
 
         <h2 class="display-2 font-weight-bold text-center pb-4">
-            How Do We Collect Information?
+            Aliquam tincidunt mauris eu risus?
         </h2>
 
         <div>
-            <p>At Wingle, We leverage a systematic process that includes an expert team of IT professionals. Additionally, we employ a suite of superior technological processes designed to collect and analyze information on products being developed. With a boots on the ground philosophy, we stay in close contact with suppliers, manufacturers, and product innovators regularly.</p>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
 
-            <p>This gives us the power to confidently aggregate the most impactful data straight from the source. This objective has been the cause that unites us all at Wingle for years. Our system was designed for Open Innovation departments, Business Development departments, R&D departments, and IP departments. We offer insights on product technologies, their development and manufacturing process as well as product and company history and performance.</p>
+            <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+commodo consequat.</p>
         </div>
 
     </div>
@@ -352,7 +349,7 @@
         frameSubtitleTwo: 'Configure feeds for monitoring changes',
         frameTitleThree: 'Customizable Reports',
         frameSubtitleThree: 'Download as PDF or Stylesheets',
-        copyright: '© 2020 Wingle Group Electronics Limited',
+        copyright: '© Vestibulum auctor dapibus neque',
 
         registrationButton: 'Register',
         loginButton:        'Login',
