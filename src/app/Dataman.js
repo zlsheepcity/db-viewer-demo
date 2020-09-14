@@ -145,6 +145,18 @@ Dataman.DB = {
     getProductDetails,
 ...Dataman.DB }
 
+// *issue Demo rewrites
+
+Dataman.DB.getProducts = function (params) {
+    return new Promise( (resolve, reject) => {
+        let demo = {
+            'hydra:member':DemoData.DB.Products,
+            'hydra:totalItems':DemoData.DB.Products.length,
+        }
+        setTimeout(f=>resolve({data:demo}),500)
+
+    })
+}
 
 // --------------------------------- Components
 
@@ -177,6 +189,18 @@ Dataman.DB = {
 ...Dataman.DB }
 
 
+// *issue Demo rewrites
+
+Dataman.DB.getComponents = function (params) {
+    return new Promise( (resolve, reject) => {
+        let demo = {
+            'hydra:member':DemoData.DB.Components,
+            'hydra:totalItems':DemoData.DB.Components.length,
+        }
+        setTimeout(f=>resolve({data:demo}),500)
+
+    })
+}
 
 // --------------------------------- Companies
 
@@ -209,6 +233,19 @@ Dataman.DB = {
     getCompanyDetails,
 ...Dataman.DB }
 
+// *issue Demo rewrites
+
+Dataman.DB.getCompanies = function (params) {
+    return new Promise( (resolve, reject) => {
+        let demo = {
+            'hydra:member':DemoData.DB.Companies,
+            'hydra:totalItems':DemoData.DB.Companies.length,
+        }
+        setTimeout(f=>resolve({data:demo}),500)
+
+    })
+}
+
 // --------------------------------- Contacts
 
 
@@ -240,6 +277,19 @@ Dataman.DB = {
     getContacts,
     getContactsDetails,
 ...Dataman.DB }
+
+// *issue Demo rewrites
+
+Dataman.DB.getContacts = function (params) {
+    return new Promise( (resolve, reject) => {
+        let demo = {
+            'hydra:member':DemoData.DB.Contacts,
+            'hydra:totalItems':DemoData.DB.Contacts.length,
+        }
+        setTimeout(f=>resolve({data:demo}),500)
+
+    })
+}
 
 // --------------------------------- Filter Library
 

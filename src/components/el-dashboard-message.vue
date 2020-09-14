@@ -12,7 +12,6 @@
 
                 <div class="pt-1">
                 <div class="overline">release VII-10</div>
-                <div class="overline">welcome message</div>
                 </div>
 
                 <v-spacer/>
@@ -43,11 +42,11 @@
                 <v-img src="../assets/illustrations/devart-reading.svg"
                     class="fill-height">
                     <div class="text-right pr-12">
-                        <div class="display-2 font-weight-bold">
+                        <div class="display-2 font-weight-bold" style="opacity:0.64">
                             Fresh Look!
                         </div>
                         <div class="pb-4">
-                            This is a demo interface for database.<br> Public copy of real project.
+                            This is a demo database frontend.<br> Public copy of real project.
                         </div>
                         <div>
                             <span @click="User.Perk('developer', !User.Dev())"
@@ -124,13 +123,13 @@
                     Фронтенд подгружает данные из API и разделяет на «категории». Записи выводятся в <i>таблице</i>, в <i>окне предварительного просмотра</i> и в <i>карточке</i>.
                 </div>
                 <div class="pb-1">
-                    <i>Конструктор фильтров</i> создаёт параметры для запросов к API. Параметры настраиваются отдельно для каждой категории.
+                    <i>Конструктор фильтров</i> создаёт параметры для запросов к API. <i>Генератор репортов</i> создаёт список для конвертации в PDF на стороне бекенда.
                 </div>
                 <div class="pb-1">
                     В
                     <span class="as_link"
                         @click="Interface.Goto('/DevBlog')"
-                        >блоге разаботчиков</span> описаны ключевые детали и ссылки.
+                        >блоге разаботчки</span> описаны ключевые детали и ссылки.
                 </div>
                 <div class="overline pb-1">
                     zl, 2020.VII.10

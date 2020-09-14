@@ -23,6 +23,7 @@
             <v-list-item-content>
             <v-list-item-title class="primary--text d-flex align-center">
                 <span>Stats</span>
+                <v-spacer></v-spacer>
                 <v-menu offset-y>
                   <template v-slot:activator="{ on, attrs }">
                     <v-btn text small
@@ -681,7 +682,7 @@
 
     let demo_chart_select_list = [
         {
-            label: 'General Overview',
+            label: 'Data growth',
             chart: 'all',
         },
         {
@@ -792,7 +793,7 @@
                 labels:
                 ['January 2020', 'February', 'March', 'April', 'May', 'June'],
                 datasets: [
-                    chartDataProducts,
+                    //chartDataProducts,
                     chartDataComponents,
                     chartDataCompanies,
                     chartDataContacts,
@@ -817,13 +818,13 @@
                 companies:[chartDataCompanies],
                 contacts:[chartDataContacts],
                 all: [
-                    chartDataProducts,
+                    //chartDataProducts,
                     chartDataComponents,
                     chartDataCompanies,
                     chartDataContacts,
                 ],
                 default: [
-                    chartDataProducts,
+                    //chartDataProducts,
                     chartDataComponents,
                     chartDataCompanies,
                     chartDataContacts,

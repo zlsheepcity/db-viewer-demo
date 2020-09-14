@@ -349,7 +349,7 @@
             let demo_valueNew =
                 category==='components' ? TAB.value
               : category==='contacts'   ? TAB.value
-              : category==='products'   ? '186'
+              : category==='products'   ? '0'
               : category==='companies'  ? '589'
               : false
             TAB.valueNew = demo_valueNew
@@ -357,7 +357,7 @@
 
             // update shortlist
 
-            TAB.items = responce
+            TAB.items = responce.slice(0,5)
 
         },
         ItemsLoadingFailed (responce) {
